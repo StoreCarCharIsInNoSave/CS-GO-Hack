@@ -1,0 +1,16 @@
+﻿  MemoryWorker.cpp
+C:\Users\Lain\Desktop\MemoryWorker\MemoryWorker\MemoryWorker.cpp(46,1): warning C4311: reinterpret_cast: усечение указателя из "HMODULE" в "DWORD"
+C:\Users\Lain\Desktop\MemoryWorker\MemoryWorker\MemoryWorker.cpp(46,1): warning C4302: reinterpret_cast: усечение из "HMODULE" к "DWORD"
+C:\Users\Lain\Desktop\MemoryWorker\MemoryWorker\MemoryWorker.cpp(55,2): warning C4312: <function-style-cast>: преобразование из "const DWORD" в "LPVOID" большего размера
+C:\Users\Lain\Desktop\MemoryWorker\MemoryWorker\MemoryWorker.cpp(119): message : выполняется компиляция ссылки на экземпляр шаблон функции "T memory::Read<DWORD>(const DWORD)"
+          with
+          [
+              T=DWORD
+          ]
+C:\Users\Lain\Desktop\MemoryWorker\MemoryWorker\MemoryWorker.cpp(62,2): warning C4312: <function-style-cast>: преобразование из "const DWORD" в "LPVOID" большего размера
+C:\Users\Lain\Desktop\MemoryWorker\MemoryWorker\MemoryWorker.cpp(132): message : выполняется компиляция ссылки на экземпляр шаблон функции "void memory::Write<int>(const DWORD,const T)"
+          with
+          [
+              T=int
+          ]
+  MemoryWorker.vcxproj -> C:\Users\Lain\Desktop\MemoryWorker\x64\Debug\MemoryWorker.exe
